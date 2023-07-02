@@ -42,7 +42,7 @@ export default function ShopPage () {
   const { shop_name } = useParams()
   return (
     <>
-      <main className='max-w-md mx-auto mb-20'>
+      <main className='max-w-md mx-auto mb-20 px-3'>
         <h1 className='text-4xl text-black pb-5 uppercase'>{shop_name}</h1>
         <h1 className='text-black text-xl'>
           Hello, <span className='text-green-400'>วรายุทธ เทกระโทก</span>
