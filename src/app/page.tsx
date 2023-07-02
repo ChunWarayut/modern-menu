@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function SplashScreenPage () {
   return (
@@ -28,8 +29,8 @@ export default function SplashScreenPage () {
       </div>
 
       <div className='fixed sm:bottom-10 lg:bottom-20 xl:bottom-24 bottom-16'>
-        <a
-          href='#_'
+        <Link
+          href='/me'
           className='px-20 py-3 relative rounded-3xl group font-medium text-white inline-block'
         >
           <span className='absolute top-0 left-0 w-full h-full rounded-3xl opacity-50 filter blur-sm bg-gradient-to-br from-amber-600 to-yellow-500'></span>
@@ -37,7 +38,7 @@ export default function SplashScreenPage () {
           <span className='absolute inset-0 w-full h-full transition-all duration-200 ease-out rounded-3xl shadow-xl bg-gradient-to-br filter group-active:opacity-0 blur-xl group-focus::blur-xl group-hover:blur-xl from-amber-600 to-yellow-500'></span>
           <span className='absolute inset-0 w-full h-full transition duration-200 ease-out rounded-3xl bg-gradient-to-br to-amber-600 from-yellow-500'></span>
           <span className='relative'>Continue</span>
-        </a>
+        </Link>
       </div>
     </main>
   )

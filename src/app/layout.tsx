@@ -19,7 +19,7 @@ export default function RootLayout ({
 }) {
   return (
     <html lang='en'>
-      <body className={k2d.className}>{children}</body>
+      <body className={`${k2d.className} bg-slate-50`}>{children}</body>
     </html>
   )
 }
