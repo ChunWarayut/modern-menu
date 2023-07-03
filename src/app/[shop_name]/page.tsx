@@ -210,7 +210,7 @@ export default function ShopPage () {
           />
           OFFERS
         </Link>
-        <Link href={``} className='flex flex-col items-center'>
+        <Link href={`/` +shop_name +  '/cart' } className='flex flex-col items-center'>
           <Image
             src={'/assets/images/bag.svg'}
             alt='Sunset in the mountains'
